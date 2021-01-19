@@ -3,11 +3,11 @@ temp = [];
 final = [];
 output = '';
 
-// If sidebar isn't open, click the ico to open it
 try {
   document.querySelectorAll('.ggUFBf')[1].childNodes[1].childNodes.forEach( function (e) {
     names.push(e.childNodes[0].childNodes[1].childNodes[0].childNodes[0].innerHTML);
   });
+// If sidebar isn't open, click the icon to open it
 } catch {
   document.querySelectorAll('span.azXnTb')[0].click()
   document.querySelectorAll('.ggUFBf')[1].childNodes[1].childNodes.forEach( function (e) {
@@ -22,7 +22,7 @@ try {
 
 // Sort by last name alphabetically
 temp.sort(function (a, b) {
-	return a[0]-b[0];
+  return a[0]-b[0];
 });
 
 // Join name back together
