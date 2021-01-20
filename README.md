@@ -1,5 +1,5 @@
 # google-meet-list-participants
-Simple script that you can add as a bookmark to list current participants on Google Meet.
+Simple script that you can add as a bookmark to list current participants on Google Meet. Duplicates are removed and list is sorted by last name alphabetically.
 
 # Installation
 1. Visit [this link](https://raw.githubusercontent.com/samialdury/google-meet-list-participants/main/script-minified-encoded.js) and copy everything.
